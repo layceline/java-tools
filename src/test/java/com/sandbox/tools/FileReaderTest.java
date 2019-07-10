@@ -1,5 +1,6 @@
 package com.sandbox.tools;
 
+import com.sandbox.tools.filereader.FileReader;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

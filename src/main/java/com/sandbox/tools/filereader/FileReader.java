@@ -1,4 +1,4 @@
-package com.sandbox.tools;
+package com.sandbox.tools.filereader;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
