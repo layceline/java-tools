@@ -10,17 +10,17 @@ public class FileReader {
 
     private String dataContent = "";
 
-    public FileReader(){
+    public FileReader() {
         dataContent = readFileAsString("test.txt");
     }
 
-    private String readFileAsString(String filename){
+    private String readFileAsString(String filename) {
 
         String content = "";
-        try{
+        try {
             Path path = Paths.get(getClass().getClassLoader().getResource(filename).toURI());
             content = new String(Files.readAllBytes(path));
-        } catch(URISyntaxException | IOException e){
+        } catch (URISyntaxException | IOException e) {
             System.out.println(e);
         }
 
