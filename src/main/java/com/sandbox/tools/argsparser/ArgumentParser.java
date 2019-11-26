@@ -4,8 +4,8 @@ import org.apache.commons.cli.*;
 
 public class ArgumentParser {
 
-    public final static String TIMEOUT_OPTION = "timeout";
-    public final static String MAX_BATCH_SIZE_OPTION = "max_batch_size";
+    public static final String TIMEOUT_OPTION = "timeout";
+    public static final String MAX_BATCH_SIZE_OPTION = "max_batch_size";
 
     public static Options generateOptions(){
         final Option timeoutOption = Option.builder("t")
