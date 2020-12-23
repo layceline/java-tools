@@ -1,6 +1,6 @@
-package com.sandbox.tools;
+package com.aeroster.sandbox.tools;
 
-import com.sandbox.tools.filereader.FileReader;
+import com.aeroster.sandbox.tools.filereader.FileReader;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

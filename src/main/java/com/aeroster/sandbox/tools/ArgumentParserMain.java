@@ -1,6 +1,6 @@
-package com.sandbox.tools;
+package com.aeroster.sandbox.tools;
 
-import com.sandbox.tools.argsparser.ArgumentParser;
+import com.aeroster.sandbox.tools.argsparser.ArgumentParser;
 import org.apache.commons.cli.*;
 
 public class ArgumentParserMain {
